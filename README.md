@@ -323,7 +323,14 @@ Reference: https://learn.microsoft.com/en-us/dotnet/framework/configure-apps/how
      exit
  </pre>
  
- ### Common Command Sequences <a name="recommendcommands"></a>
+> NOTE: If you are using the C2 version, you need to provide the commands in quotes in a space separated list. For example, to run the program from BRC4, an example command would look like:
+
+```
+sharpinline esc_c2.exe "discover domainspn" "show discovered" "set targetall enabled" "check access"
+```
+ 
+ 
+### Common Command Sequences <a name="recommendcommands"></a>
 Below are some common command examples to get you started.
 
 <strong>Discovering SQL Server Instances</strong><br> <a name="cmddiscovery"></a>
