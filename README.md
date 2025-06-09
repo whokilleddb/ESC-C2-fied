@@ -1,5 +1,7 @@
 ![evilsqlclient](https://github.com/NetSPI/ESC/blob/master/screenshots/esc-logo.png)<br>
 
+> This fork aims at creating a C2 friendly binary for the EvilSqlClient project so Red Team operators can run it from the comfort of their C2 framework. The binary (see [release](https://github.com/whokilleddb/ESC-C2-fied/releases/tag/C2-binary)) has been tested with BRC4 in a [GOAD](https://github.com/Orange-Cyberdefense/GOAD) lab. 
+
 --------------------------<br>
 Evil SQL Client (ESC)<br>
 Version: v1.0 <Br>
