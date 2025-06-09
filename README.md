@@ -63,7 +63,7 @@ Below is a list of options for running the Evil SQl Client (ESC).
 
 ### Download release and run from C2 <a name="runexec2"></a>
 1. Download compiled esc_c2.exe from [releases](https://github.com/whokilleddb/ESC-C2-fied/releases). 
-2. Run esc.exe.
+2. Run esc_c2.exe from your favourite C2's assembly execution method (following example is from BRC4)
 
 ![runescexec2](./screenshots/brc4run.png)
   
