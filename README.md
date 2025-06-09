@@ -13,7 +13,9 @@ Below is a summary of what is covered in this readme:
 <br><br>
 <strong>Execution Options</strong><br>
 * <a href="#compileexe">Compile source and run via exe</a>
+* <a href="#compileexec2">Compile source and run from C2</a>
 * <a href="#runexe">Download release and run via exe</a>
+* <a href="#runexec2">Download release and run from C2</a>
 * <a href="#runmsbuild">Download and run through MSBuild</a>
 * <a href="#runps">Download and run through PowerShell</a>
 * <a href="#runappdomain">Download and run through AppDomain Hijacking</a>
@@ -44,12 +46,26 @@ Below is a list of options for running the Evil SQl Client (ESC).
 3. Run esc.exe.
 
 ![buildesc](https://github.com/NetSPI/ESC/blob/master/screenshots/start-esc-compile-1.png) 
+
+### Compile source and run from C2 <a name="compileexec2"></a>
+1. Download the source from  [esc-c2 folder](https://github.com/whokilleddb/ESC-C2-fied/tree/master/esc-c2).
+1. Open the esc.sln file in Visual Studio.
+2. Select Build -> Build Solution.
+3. Run esc_c2.exe from your favourite C2's assembly execution method
+
+![buildescc2](./screenshots/c2build.png) 
  
 ### Download Release and Run Exe <a name="runexe"></a>
 1. Download compiled esc.exe from [releases](https://github.com/NetSPI/ESC/releases). 
 2. Run esc.exe.
 
 ![runescexe](https://github.com/NetSPI/ESC/blob/master/screenshots/start-esc-compile-2.png)
+
+### Download release and run from C2 <a name="runexec2"></a>
+1. Download compiled esc_c2.exe from [releases](https://github.com/whokilleddb/ESC-C2-fied/releases). 
+2. Run esc.exe.
+
+![runescexec2](./screenshots/brc4run.png)
   
 ### Download and Run through MSbuild.exe <a name="runmsbuild"></a>
  
